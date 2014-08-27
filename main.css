@@ -1,0 +1,101 @@
+/** {
+  border: 1px solid red;
+}*/
+
+body {
+  background: #626362;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h1,h2,h3 {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  background: black;
+}
+
+.main {
+  width: 748px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+            /******* Side Bar *********/
+.nav {
+  background: #F5F5F5;
+  width: 210px;
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+  top: -10px;
+  border-radius: 20px;
+}
+
+.left-bar{
+  border-top: 1px solid #8E8E8E;
+  height: 40px;
+}
+
+.left-text {
+  margin-left: 8px;
+}
+
+.left-dis {
+  position: relative;
+  bottom: 8px;
+  color: #919191;
+}
+
+                /********* Form *********/
+.section {
+  background: #F5F5F5;
+  width: 500px;
+  display: inline-block;
+  position: relative;
+  top: 120px;
+  border-radius: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.inp {
+  width: 350px;
+  height: 35px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #8E8E8E;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+        /*** Button ****/
+.update {
+  background: linear-gradient(#9AD691, #3B962B);
+  margin-top: 20px;
+  width: 90px;
+  height: 40px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  outline: none;
+}
