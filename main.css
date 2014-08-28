@@ -6,6 +6,11 @@ body {
   background: #6488A0;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 h1 {
   font-size: 35px;
   margin-bottom: 5px;
@@ -25,39 +30,42 @@ a {
 }
 
 a:hover {
-  background: black;
+  border-left: #000;
 }
 
 .main {
-  width: 748px;
-  height: 600px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: 100px auto;
 }
+
 
             /******* Side Bar *********/
 .nav {
   background: #F5F5F5;
   width: 210px;
   display: inline-block;
-  margin-right: 30px;
-  position: relative;
-  top: -10px;
+  margin: 0 30px 0 0;
   border-radius: 20px;
-}
-
-.left-bar{
-  border-top: 1px solid #8E8E8E;
-  height: 40px;
+  margin-top: 20px;
+  vertical-align: top;
 }
 
 .left-text {
-  margin-left: 8px;
-}
-
-.left-dis {
   position: relative;
   bottom: 8px;
   color: #919191;
+  margin-left: 10px;
+}
+
+.name {
+  color: #000;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.top-line {
+  border-top: 1px solid #8E8E8E;
+  margin: -15px 0;
 }
 
                 /********* Form *********/
@@ -65,9 +73,10 @@ a:hover {
   background: #F5F5F5;
   width: 500px;
   display: inline-block;
-  position: relative;
-  top: 120px;
   border-radius: 20px;
+  /*position: relative;
+  left: 200px;*/
+  margin-top: 20px;
 }
 
 .profile {
@@ -80,9 +89,8 @@ a:hover {
   margin-top: 20px;
   padding-left: 10px;
   border: 1px solid #8E8E8E;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 20px;
-  outline: none;
   -webkit-appearance: none;
 }
 
